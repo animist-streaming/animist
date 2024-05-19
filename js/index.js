@@ -1,6 +1,6 @@
 // Api urls
 
-const ProxyApi = "https://proxy.techzbots1.workers.dev/?u=";
+const ProxyApi = "https://api3.armedwarriorts.workers.dev/search/{query}";
 const IndexApi = "/home";
 const recentapi = "/recent/";
 
