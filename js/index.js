@@ -6,7 +6,7 @@ const recentapi = "/recent/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://api100.anime-dex.workers.dev"];
+const AvailableServers = ["https://api3.armedwarriorts.workers.dev/home"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
