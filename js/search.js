@@ -5,7 +5,7 @@ const searchapi = "/search/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://api3.armedwarriorts.workers.dev"];
+const AvailableServers = ["https://api3.armedwarriorts.workers.dev","https://api1.speedkillerts.workers.dev"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
